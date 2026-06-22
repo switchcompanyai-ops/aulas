@@ -1,0 +1,20 @@
+// Arquivo de configuração do projeto
+module.exports = {
+  // AWS
+  aws: {
+    accessKeyId: "AKIAIOSFODNN7EXAMPLE",
+    secretAccessKey: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    region: "us-east-1"
+  },
+
+  // Twilio para SMS
+  twilio: {
+    accountSid: "ACabcdefghijklmnopqrstuvwxyz123456",
+    authToken: "abcdef1234567890abcdef1234567890"
+  },
+
+  // Sendgrid
+  sendgrid: {
+    apiKey: "SG.abcdefghijklmnop.QRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwx"
+  }
+};
